@@ -39,3 +39,10 @@ To run the notebook locally, open `salary.ipynb` in Jupyter Notebook or JupyterL
 
 ```bash
 jupyter notebook salary.ipynb
+```
+
+## Acknowledgements
+
+- Thanks to [Kaggle](https://www.kaggle.com/) for providing the dataset.
+
+
