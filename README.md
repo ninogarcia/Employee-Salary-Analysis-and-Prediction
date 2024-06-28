@@ -1,6 +1,6 @@
 # Employee Salary Analysis and Prediction
 
-Welcome to the Employee Salary Analysis and Prediction project! This project aims to analyze and predict the salaries of employees based on various features such as age, gender, education level, job title, and years of experience. 
+Welcome to the Employee Salary Analysis and Prediction project! This project aims to analyze and predict the salaries of employees based on various features such as age, gender, education level, job title, and years of experience.
 
 ## Introduction
 
@@ -33,12 +33,18 @@ The dataset is available on Kaggle: [Salary Prediction for Beginners](https://ww
 
 The code used for this analysis and prediction is available in the Jupyter Notebook: [salary.ipynb](salary.ipynb).
 
-## Usage
+## Prediction App
 
-To run the notebook locally, open `salary.ipynb` in Jupyter Notebook or JupyterLab.
+I have developed a prediction app in Python that can be run locally. This app uses the trained model to predict employee salaries based on input features. You can find the code for the prediction app here: [prediction_app.py](https://github.com/ninogarcia/Employee-Salary-Analysis-and-Prediction/blob/main/prediction%20app.py).
+
+Make sure that the `model.pkl` file is in the same folder as the prediction app. You can find the `model.pkl` file here: [model.pkl](https://github.com/ninogarcia/Employee-Salary-Analysis-and-Prediction/blob/main/model.pkl).
+
+### Running the Prediction App Locally
+
+To run the prediction app locally, execute the following command:
 
 ```bash
-jupyter notebook salary.ipynb
+python prediction_app.py
 ```
 
 ## Acknowledgements
